@@ -1,0 +1,23 @@
+### Register Request
+POST https://3001-jade-shrimp-nk6273dq.ws-us23.gitpod.io/api/register
+Content-Type: application/json
+
+{
+    "email": "ernesto@codexsw.com",
+    "password": "pass1234"
+}
+
+
+### Login Request
+POST https://3001-jade-shrimp-nk6273dq.ws-us23.gitpod.io/api/login
+Content-Type: application/json
+
+{
+    "email": "ernesto@codexsw.com",
+    "password": "pass1234"
+}
+
+### User Info Request
+GET https://3001-jade-shrimp-nk6273dq.ws-us23.gitpod.io/api/userinfo
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYzOTg0NzY4NiwianRpIjoiNTk2MjYwM2ItODE1OC00NjI0LThlZjItMmI5MjlhNjI1NWRjIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNjM5ODQ3Njg2LCJleHAiOjE2Mzk4NDg1ODZ9.HLcFBpTyJO8eUQkpJ8otXDbQ8DHDKtbM_IRmgGmzzTk
+
